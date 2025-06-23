@@ -26,7 +26,9 @@ Follow these steps to set up the project environment and run the interface.
 Python 3.8 or newer.
 pip and venv for package management.
 An NVIDIA GPU with CUDA support is highly recommended for reasonable generation times. The code will fall back to the CPU, but it will be extremely slow.
+
 #### 2. Create a requirements.txt file
+
 For easy installation of dependencies, create a file named requirements.txt in your project's root directory and add the following lines to it:
 
 ```
@@ -86,19 +88,19 @@ Important Note: The first time you run the model loading cell, it will download 
 
 # usage
 
-Model: ```Select either stable-diffusion-v1-5``` or the higher-quality ```stable-diffusion-xl-base-1.0``` from the dropdown menu.
+**Model**: ```Select either stable-diffusion-v1-5``` or the higher-quality ```stable-diffusion-xl-base-1.0``` from the dropdown menu.
 
-Prompt: Write a descriptive text of the image you want to create. Be as specific as possible for better results.
+**Prompt**: Write a descriptive text of the image you want to create. Be as specific as possible for better results.
 
-CFG Scale: Adjust the slider to control prompt adherence. Lower values (e.g., 3-6) give the model more creative freedom, while 
-higher values (e.g., 7-12) make it stick more closely to your prompt.
+**CFG Scale**: Adjust the slider to control prompt adherence. Lower values (e.g., 3-6) give the model more creative freedom, while 
+**higher values** (e.g., 7-12) make it stick more closely to your prompt.
 
-Image Width/Height: Set the desired dimensions for the output image. Note that SDXL works best with resolutions of 1024x1024.
+**Image Width/Height**: Set the desired dimensions for the output image. Note that SDXL works best with resolutions of 1024x1024.
 
-Generate: Click the "Generate Image" button and wait for the result to appear on the right.
+**Generate**: Click the "Generate Image" button and wait for the result to appear on the right.
 
 # 🙏 Acknowledgments
 
-- Thanks to Stability AI and RunwayML for releasing the Stable Diffusion models.
-- This interface is built using the fantastic Gradio library.
-- Model hosting and pipelines are powered by Hugging Face.
+- Thanks to [Stability AI](https://stability.ai/) and [RunwayML](https://runwayml.com/) for releasing the Stable Diffusion models.
+- This interface is built using the fantastic [Gradio](https://www.gradio.app/) library.
+- Model hosting and pipelines are powered by [Hugging Face](https://huggingface.co/).
