@@ -1,6 +1,6 @@
 # StabDiffusion Gradio Interface
 
-🖼️ Stable Diffusion Gradio Interface\n
+🖼️ Stable Diffusion Gradio Interface
 A simple yet powerful Gradio web interface for generating images with Stable Diffusion models. This project allows users to easily interact with both SD 1.5 and the high-resolution SDXL models, providing real-time control over key generation parameters.
 
 This project is structured as a Jupyter Notebook (.ipynb) for clear, cell-by-cell execution, making it ideal for experimentation and demonstration.
