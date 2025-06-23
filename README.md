@@ -13,7 +13,7 @@ Image Dimensions: Set custom image width and height.
 Intuitive UI: A clean and user-friendly interface built with Gradio.
 Notebook Format: Organized into logical cells for imports, model loading, and the UI, making the code easy to understand and modify.
 
-### 📸 Demo
+# 📸 Demo
 
 ![image](https://github.com/user-attachments/assets/618aa22f-1716-440a-b506-d8d29e61c86e)
 
